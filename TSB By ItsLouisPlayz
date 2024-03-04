@@ -213,4 +213,12 @@ Tab:AddButton({
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/Void%20Bring%20Tsb.lua"))()
   	end    
 })
+Tab:AddButton({
+	Name = "TP to middle",
+	Callback = function()
+      		local rootPart = game.Players.LocalPlayer.Character.HumanoidRootPart
+rootPart.CFrame = CFrame.new(157.93866, 440.753632, 26.125967, -0.610631764, -1.02571951e-08, 0.791914701, 8.94262789e-12, 1, 1.2959295e-08, -0.791914701, 7.92043853e-09, -0.610631764)
+  	end    
+})
+
 OrionLib:Init()
