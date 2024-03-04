@@ -1,12 +1,12 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/thanhdat4461/OrionMoblie/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "TSB Test", HidePremium = false, SaveConfig = false, ConfigFolder = "OrionTest"})
 local Tab = Window:MakeTab({
-	Name = "By ItsLouisPlayz",
+	Name = "Main",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
-	Name = "Block & Aimbot"
+	Name = "By ItsLouisPlayz"
 })
 OrionLib:MakeNotification({
 	Name = "Script Loaded",
@@ -212,6 +212,9 @@ Tab:AddButton({
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/Void%20Bring%20Tsb.lua"))()
   	end    
+})
+local Section = Tab:AddSection({
+	Name = "By IAmOnTablet"
 })
 Tab:AddButton({
 	Name = "TP to middle",
