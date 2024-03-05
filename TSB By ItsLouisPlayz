@@ -210,7 +210,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "Bring to void",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/Void%20Bring%20Tsb.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/louismich4el/ItsLouisPlayz-Scripts/main/VOID%20V2%20TSB.lua"))()
   	end    
 })
 local Section = Tab:AddSection({
