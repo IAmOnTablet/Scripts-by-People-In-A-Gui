@@ -1,0 +1,45 @@
+;local Library = loadstring(Game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/wizard"))()
+
+local PhantomForcesWindow = Library:NewWindow("Donjosx + SB Scripts Slap Battles")
+
+local KillingCheats = PhantomForcesWindow:NewSection("Main")
+
+KillingCheats:CreateButton("Edgelord", function()
+loadstring(game:HttpGet("https://pastefy.app/smCIcVWh/raw",true))();
+end)
+
+KillingCheats:CreateButton("Glove Abuser", function()
+loadstring(game:HttpGet("https://pastefy.app/dzKnPjmo/raw", true))();
+end)
+
+KillingCheats:CreateButton("Alchemist", function()
+loadstring(game:HttpGet("https://pastefy.app/eFWaR9ev/raw"))()
+end)
+
+KillingCheats:CreateButton("God Mode", function()
+loadstring(game:HttpGet("https://pastefy.app/g5qMWeWG/raw", true))();
+end)
+
+KillingCheats:CreateButton("Kick with Firework", function()
+loadstring(game:HttpGet("https://pastefy.app/eAFsNQoe/raw",true))();
+end)
+
+KillingCheats:CreateButton("Abilities", function()
+loadstring(game:HttpGet("https://pastefy.app/MJvHLyU9/raw",true))();
+end)
+
+KillingCheats:CreateButton("Giangmc Hub", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
+end)
+
+KillingCheats:CreateButton("Nuke the Server", function()
+loadstring(game:HttpGet("https://pastefy.app/J0u9Qe7p/raw",true))();
+end)
+
+KillingCheats:CreateButton("no cooldown slaps (sbs)", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/Xt3Td5Yz",true))();
+end)
+
+KillingCheats:CreateButton("sbs hub", function()
+loadstring(game:HttpGet('https://pastebin.com/raw/t9XmdEFT'))()
+end)
