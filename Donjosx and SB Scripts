@@ -5,19 +5,19 @@ local PhantomForcesWindow = Library:NewWindow("Donjosx + SB Scripts Slap Battles
 local KillingCheats = PhantomForcesWindow:NewSection("Main")
 
 KillingCheats:CreateButton("Edgelord", function()
-loadstring(game:HttpGet("https://pastefy.app/smCIcVWh/raw",true))();
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Donjosx/SlapBattle_Scripts/main/Edgelord_V2.2")))()
 end)
 
 KillingCheats:CreateButton("Glove Abuser", function()
 loadstring(game:HttpGet("https://pastefy.app/dzKnPjmo/raw", true))();
 end)
 
-KillingCheats:CreateButton("Alchemist", function()
-loadstring(game:HttpGet("https://pastefy.app/eFWaR9ev/raw"))()
+KillingCheats:CreateButton("Potion Abuser", function()
+loadstring(game:HttpGet(("https://github.com/Donjosx/SlapBattle_Scripts/blob/main/Potion_Abuser")))()
 end)
 
 KillingCheats:CreateButton("God Mode", function()
-loadstring(game:HttpGet("https://pastefy.app/g5qMWeWG/raw", true))();
+loadstring(game:HttpGet(("https://github.com/Donjosx/SlapBattle_Scripts/blob/main/God_Mode_V2")))()
 end)
 
 KillingCheats:CreateButton("Kick with Firework", function()
@@ -32,8 +32,8 @@ KillingCheats:CreateButton("Giangmc Hub", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"))()
 end)
 
-KillingCheats:CreateButton("lag server", function()
-loadstring(game:HttpGet("https://pastefy.app/DywJzMV6/raw", true))();
+KillingCheats:CreateButton("Glovel Lag", function()
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Donjosx/SlapBattle_Scripts/main/Glovel_Lag")))()
 end)
 
 KillingCheats:CreateButton("Nuke the Server", function()
