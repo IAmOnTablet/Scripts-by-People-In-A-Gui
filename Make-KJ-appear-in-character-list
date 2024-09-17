@@ -1,0 +1,14 @@
+local Players = game:GetService("Players")
+
+local player = Players.LocalPlayer
+
+local playerGui = player:WaitForChild("PlayerGui")
+
+local function lookforKJ()
+    local KJLoc = playerGui.TopbarPlus.TopbarContainer.UnnamedIcon.DropdownContainer.DropdownFrame.KJ
+    if KJLoc then
+        KJLoc.Visible = true
+    end
+end
+
+lookforKJ()
